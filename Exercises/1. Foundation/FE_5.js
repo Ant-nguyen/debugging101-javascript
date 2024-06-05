@@ -3,7 +3,7 @@
 * the total. Please identify any issues in the following function.
 */
 const multiplyAllNums = nums => {
-  let total = 0;
+  let total = 1;
   for(num of nums) {
     total *= num;
   }

@@ -26,6 +26,6 @@ const middleEarth = {
 }
 
 for(let book in middleEarth) {
-  console.log(middleEarth.book);
+  console.log(middleEarth[book].title);
 }
 console.log(middleEarth[5].author);

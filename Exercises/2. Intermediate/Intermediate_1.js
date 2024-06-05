@@ -9,14 +9,14 @@ const middleEarth = {
   },
   2: {
     title: 'The Hobbit',
-    author: 'J.R.R. Tolkien';
+    author: 'J.R.R. Tolkien'
   },
   3: {
     title: 'The Fellowship of the Ring',
     author: 'J.R.R. Tolkien'
   },
   4: {
-    title: 'The Two Towers'
+    title: 'The Two Towers',
     author: 'J.R.R. Tolkien'
   },
   5: {

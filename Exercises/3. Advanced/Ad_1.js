@@ -8,10 +8,13 @@
 * requires some type of optimization to fix the issue.
 */
 
-const fibbonaci = n => {
-  if (n === 0) return 1;
+const fibbonaci = (n) => {
+  if (n === 0) return 0;
+  if (n === 1) return 1;
 
   return fibbonaci(n-1) + fibbonaci(n-2);
 }
 
-console.log(fibbonaci(20));
+for(let n=0;n<11;n++){
+  console.log(fibbonaci(n));
+}
